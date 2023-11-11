@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "./Formulario.css"
 
 function Formulario({ setAlertMessage }) {
   const [formData, setFormData] = useState({
